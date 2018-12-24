@@ -1,0 +1,62 @@
+=============
+Visualization
+=============
+
+Observe the different kinds of images.
+(TRY) Plot the correlation between each pixel and the label
+
+=============
+Preprocessing
+=============
+
+Split into train, validation, and test set.
+(TRY) Scale numbers (divide by 255 or use standard scaler)
+(TRY) Gray Scaling
+(TRY) Dimension reduction.
+Scale size (probably don't need to because it is 20*20)
+
+===========
+Pretraining
+===========
+
+(TRY) Autoencoders
+(TRY) Transfer learning
+
+======
+Models
+======
+
+Data Augmentation
+Train different models on dataset.
+Constrain the weights.
+Dropout (20-50%), early stopping
+Tune the model with different hyperparameters:
+    *learning rate (large with decay)
+    layer size
+    layer number
+    kernel
+    stride
+    activation functions
+
+(TRY) Build multiple models with similar hyperparameters.
+(TRY) Build voting classifier on top of them
+
+View result on tensorboard.
+Visualize model with keras.
+
+Find what features (pixels) are most important
+ 
+=======
+Testing
+=======
+
+Pick a performance measure
+Test performance on the models.
+
+====
+Tips
+====
+
+First layers are most important and we should focus on later layers.
+Document observations
+List all hyperparameters

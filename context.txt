@@ -1,0 +1,32 @@
+==========
+Objective
+==========
+
+Train on this data set to classify planes.
+
+=======
+Purpose
+=======
+
+To create a neural network framework that others can use to detect planes.
+
+=======
+Content
+=======
+
+Data               (20x20 RGB image)
+Label              (1 for plane class, 0 for no plane class)
+Scene ID           (unique identifier of the PlanetScope visual scene)
+Longitude/Latitude (coordinates of image center)
+
+
+=======
+Labels
+=======
+
+0-7999        Planes
+
+8000-15999:   geographic images
+16000-23999:  partial planes 
+24000-31999=: confusers that have previously been mislabeled by machine learning models
+
